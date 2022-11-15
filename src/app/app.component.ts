@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
   // styles:[] INLINE STYLES
 })
-export class AppComponent {}
+export class AppComponent {
+  name = 'killshot';
+
+  getName() {
+    return this.name;
+  }
+}
