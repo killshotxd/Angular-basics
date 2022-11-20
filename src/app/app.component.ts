@@ -20,6 +20,8 @@ export class AppComponent {
     size: 'large',
   };
 
+  blueClass = false;
+
   getName() {
     return this.name;
   }
