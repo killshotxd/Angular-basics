@@ -1,6 +1,9 @@
-<ng-template>
+<!-- <ng-template [ngIf]="blueClass">
   <p>Button is Blue</p>
-</ng-template>
+</ng-template> -->
+
+<p *ngIf="blueClass">Button is Blue</p>
+<!-- SHORTHAND for ngIf directive -->
 
 <button
   (click)="blueClass = !blueClass"
