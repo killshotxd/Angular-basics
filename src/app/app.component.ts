@@ -21,6 +21,7 @@ export class AppComponent {
   };
 
   blueClass = false;
+  fontSize = 16;
 
   getName() {
     return this.name;
